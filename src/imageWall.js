@@ -1,4 +1,4 @@
-
+ 
 (function (root, factory) {
     if (typeof define === 'function' && define.amd) {
         define(factory);
@@ -55,7 +55,7 @@
 
         var pictures = elements.slice (start, end);
         for (var i = 0; i < pictures.length; i++) {
-           proportions [i] = pictures[i].height/pictures[i].width;
+           proportions [i] = pictures[i].naturalHeight/pictures[i].naturalWidth;
         }
 
         // Get the scale factor
