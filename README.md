@@ -2,7 +2,7 @@
 
 *Image grid system*
 
-ImageWall is a simple and easy to use plugin that works by resizing images based on the image proportion and the available horizontal space.
+ImageWall is a simple and easy to use plugin that works by resizing images basing on the image proportion and the available horizontal space.
 
 ## Installation
 
@@ -31,9 +31,9 @@ The following options are available:
 
 |Option|Type|Default|Description|
 |---|---|---|---|
-|`className`|**mandatory**:String||The markup of the images to be resized.|
+|`className`|**mandatory**:String||The class of the images to be resized.|
 |`containerID`|**optional**:String|`window`|The ID of the image container.|
-|`maxWidth`|**optional**:number|`450`|The max width of the images, in pixels.|
+|`maxWidth`|**optional**:number|`450`|The max width of the resulting images, in pixels. This will be used to calculate the number of images per row.|
 
 ## Usage
 
